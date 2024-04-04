@@ -1,0 +1,15 @@
+{
+  "dependencies": [
+    "apriltag",
+    "ceres",
+    "cli11",
+    {
+      "name": "opencv",
+      "features": [
+        "ffmpeg"
+      ]
+    },
+    "eigen3",
+    "nlohmann-json"
+  ]
+}
