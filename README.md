@@ -1,4 +1,4 @@
-# Field Calibrator
+# Cowlibration: Field
 Calibrate relative positions of Apriltags on the field
 
 <img src="docs/screenshot.png" width="480"/>
