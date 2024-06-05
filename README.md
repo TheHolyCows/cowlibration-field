@@ -26,12 +26,12 @@ $ pip install -r requirements.txt
 2. Record a video of the field's AprilTags
 3. Run field calibrator
 ```
-$ ./build/FieldCalibrator \
-    --input-dir [input video directory path] \
-    --camera-model [input camera model path] \
-    --ideal-map [input ideal field map path] \
+$ ./build/FieldCalibrator                            \
+    --input-dir [input video directory path]         \
+    --camera-model [input camera model path]         \
+    --ideal-map [input ideal field map path]         \
     --output-file [output calibrated field map path] \
-    --fps [detection fps] \
+    --fps [detection fps]                            \
     --tag-size [tag size in meters]
 ```
 
