@@ -400,9 +400,9 @@ int main(int argc, char **argv)
     double tag_size;
 
     app.add_option("--input-dir", input_dir_path, "Input video directory path")->required();
-    app.add_option("--output-file", output_file_path, "Output file path")->required();
-    app.add_option("--camera-model", camera_model_path, "Camera model path")->required();
-    app.add_option("--ideal-map", ideal_map_path, "Ideal field map")->required();
+    app.add_option("--output-file", output_file_path, "Output calibrated field map path")->required();
+    app.add_option("--camera-model", camera_model_path, "Input camera model path")->required();
+    app.add_option("--ideal-map", ideal_map_path, "Input ideal field map path")->required();
     app.add_option("--pin-tag", pinned_tag_id, "Pinned tag ID")->required();
     app.add_option("--fps", detection_fps, "FPS")->default_val(30);
     app.add_option("--tag-size", tag_size, "Tag size (meters)")->default_val(0.1651);
