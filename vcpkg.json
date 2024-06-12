@@ -1,7 +1,12 @@
 {
   "dependencies": [
     "apriltag",
-    "ceres",
+    {
+      "name": "ceres",
+      "features": [
+        "eigensparse"
+      ]
+    },
     "cli11",
     {
       "name": "opencv",
